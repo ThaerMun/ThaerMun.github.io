@@ -1,0 +1,34 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url(header.jpg);
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.btn-primary{
+  margin-left: 45%;
+  margin-top: 15%;
+  color: white;
+  background-color: rgba(0,0,255,0.3);
+}
+.btn-primary:hover{
+  background-color: red;
+  font-weight: bold;
+  transition: all 1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}

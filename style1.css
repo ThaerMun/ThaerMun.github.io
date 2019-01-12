@@ -1,0 +1,17 @@
+body{
+    background-color: darkgoldenrod;
+    background-size: cover;
+}
+.btn-primary{
+    background-color: rgb(24, 41, 7);
+    cursor: pointer;
+}
+
+label {
+    font-size: 16px;
+    color: black;
+}
+
+.form-text{
+    color: black;
+}
