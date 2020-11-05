@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+  <h1>Check Console <br> CTRL + Shift + I</h1>
+<script>
+  const typed = [];
+  const keyWord = 'congrats';
+  function handleKey(e){
+    typed.push(e.key);
+    console.log(typed);
+    //Read the keyWork backword, till the array is equal to the keyWord
+    typed.splice(-typed.length -1, typed.length - keyWord.length);
+    if (typed.join('').includes(keyWord)){
+    console.log('Surprise');
+    cornify_add();
+    
+    }
+  }
+
+
+
+  window.addEventListener('keyup',handleKey)
+</script>
+</body>
+</html>
