@@ -3637,20 +3637,23 @@
   }
 }
 
+
 body,
 html {
   width: 100%;
   height: 100%;
-}
-
-body {
-  background-image: url(header.jpg);
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  font-family: 'Montserrat', sans-serif;
 }
 
-div p{
-  color: white;
+.image{
+  border-radius: 30px;
+}
+div h1{
+  color: #847474;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 32px;
